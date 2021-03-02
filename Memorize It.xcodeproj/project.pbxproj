@@ -15,6 +15,7 @@
 		B44610B925ED794200EB5DC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446108E25ED793E00EB5DC4 /* ContentView.swift */; };
 		B44610BA25ED794200EB5DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B446108F25ED794200EB5DC4 /* Assets.xcassets */; };
 		B44610BB25ED794200EB5DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B446108F25ED794200EB5DC4 /* Assets.xcassets */; };
+		B44610D025EE770300EB5DC4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44610CF25EE770300EB5DC4 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B44610AF25ED794200EB5DC4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44610B325ED794200EB5DC4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		B44610B525ED794200EB5DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44610CF25EE770300EB5DC4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		B446108C25ED793D00EB5DC4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B44610CE25EE76E800EB5DC4 /* components */,
 				B446108D25ED793E00EB5DC4 /* Memorize_ItApp.swift */,
 				B446108E25ED793E00EB5DC4 /* ContentView.swift */,
 				B446108F25ED794200EB5DC4 /* Assets.xcassets */,
@@ -149,6 +152,14 @@
 				B44610B525ED794200EB5DC4 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		B44610CE25EE76E800EB5DC4 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				B44610CF25EE770300EB5DC4 /* CardView.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44610B825ED794200EB5DC4 /* ContentView.swift in Sources */,
+				B44610D025EE770300EB5DC4 /* CardView.swift in Sources */,
 				B44610B625ED794200EB5DC4 /* Memorize_ItApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
